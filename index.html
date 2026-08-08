@@ -45,7 +45,6 @@
             <nav class="nav-menu" id="navMenu">
                 <a href="#about" class="nav-link">About</a>
                 <a href="#research" class="nav-link">Research</a>
-                <a href="#projects" class="nav-link">Projects</a>
                 <a href="#education" class="nav-link">Education</a>
                 <a href="#achievements" class="nav-link">Achievements</a>
                 <a href="#coursework" class="nav-link">Coursework</a>
@@ -81,14 +80,14 @@
                             <span class="status-dot"></span> PhD Scholar @ IIT Guwahati
                         </div>
                         <div class="hero-quick-links">
-                            <a href="mailto:ponkojs318@gmail.com" title="Email Pankaj" class="quick-link-btn">
+                            <a href="mailto:pankajsaha@iitg.ac.in" title="IIT Guwahati Email" class="quick-link-btn">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </a>
+                            <a href="mailto:ponkojs318@gmail.com" title="Personal Email" class="quick-link-btn">
                                 <i class="fa-solid fa-envelope"></i>
                             </a>
                             <a href="https://linkedin.com/in/pankaj-saha-7ab770209/" target="_blank" rel="noopener" title="LinkedIn Profile" class="quick-link-btn">
                                 <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                            <a href="tel:+916294386866" title="Phone Call" class="quick-link-btn">
-                                <i class="fa-solid fa-phone"></i>
                             </a>
                         </div>
                     </div>
@@ -114,8 +113,8 @@
                     </div>
 
                     <div class="hero-actions">
-                        <a href="#projects" class="btn btn-primary">
-                            <i class="fa-solid fa-flask"></i> Explore Thesis Research
+                        <a href="#research" class="btn btn-primary">
+                            <i class="fa-solid fa-brain"></i> Research Focus
                         </a>
                         <a href="#contact" class="btn btn-secondary">
                             <i class="fa-solid fa-address-card"></i> Contact Information
@@ -124,8 +123,8 @@
 
                     <div class="stats-bar">
                         <div class="stat-item">
-                            <span class="stat-num" data-count="8.53">8.53</span>
-                            <span class="stat-label">M.Sc. CPI (IIT Indore)</span>
+                            <span class="stat-num" data-count="5">5+</span>
+                            <span class="stat-label">Research Domains</span>
                         </div>
                         <div class="stat-item">
                             <span class="stat-num" data-count="4">4</span>
@@ -133,7 +132,7 @@
                         </div>
                         <div class="stat-item">
                             <span class="stat-num" data-count="5">5+</span>
-                            <span class="stat-label">Research Workshops</span>
+                            <span class="stat-label">Academic Workshops</span>
                         </div>
                     </div>
                 </div>
@@ -195,80 +194,7 @@
             </div>
         </section>
 
-        <!-- Master's Thesis & Projects Section -->
-        <section class="section-padding projects-section" id="projects">
-            <div class="container">
-                <div class="section-header text-center">
-                    <span class="section-badge">Master's Thesis Research</span>
-                    <h2 class="section-title">Academic Projects</h2>
-                    <p class="section-description">
-                        Supervised by <strong>Dr. Debopriya Mukherjee</strong> (Assistant Professor, IIT Indore) &bull; Aug 2024 – July 2025
-                    </p>
-                </div>
 
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <article class="project-card glass-card">
-                        <div class="project-header">
-                            <span class="project-tag">Thesis Project 1</span>
-                            <span class="project-date"><i class="fa-regular fa-calendar"></i> Aug 2024 – Jul 2025</span>
-                        </div>
-                        <h3 class="project-title">Large Deviation for Stochastic Three Species Predator-Prey Model with Anti-Predator Response</h3>
-                        <div class="project-supervisor">
-                            <i class="fa-solid fa-user-tie"></i> Supervisor: Dr. Debopriya Mukherjee (Assistant Professor, IITI)
-                        </div>
-                        <p class="project-summary">
-                            Establishes the Large Deviation Principle (LDP) for a three-species predator-prey system with anti-predator dynamics. Applies the weak convergence framework developed by Budhiraja and Dupuis to establish the Laplace principle for a family of solutions in Polish space.
-                        </p>
-
-                        <div class="project-math-highlight">
-                            <div class="katex-box">$$\text{Laplace Principle: } \lim_{\epsilon \to 0} \epsilon \log \mathbb{E}\left[\exp\left(-\frac{h(X^\epsilon)}{\epsilon}\right)\right] = -\inf_{f \in \mathcal{S}} \{h(f) + I(f)\}$$</div>
-                        </div>
-
-                        <div class="project-keywords">
-                            <span>Budhiraja-Dupuis Approach</span>
-                            <span>Polish Space</span>
-                            <span>Anti-Predation</span>
-                            <span>Stochastic Predator-Prey</span>
-                        </div>
-
-                        <button class="btn btn-outline modal-btn" onclick="openProjectModal(1)">
-                            <i class="fa-solid fa-circle-info"></i> View Full Methodology
-                        </button>
-                    </article>
-
-                    <!-- Project 2 -->
-                    <article class="project-card glass-card">
-                        <div class="project-header">
-                            <span class="project-tag">Thesis Project 2</span>
-                            <span class="project-date"><i class="fa-regular fa-calendar"></i> Aug 2024 – Jul 2025</span>
-                        </div>
-                        <h3 class="project-title">Large Deviation for Stochastic Reaction-Diffusion Equation</h3>
-                        <div class="project-supervisor">
-                            <i class="fa-solid fa-user-tie"></i> Supervisor: Dr. Debopriya Mukherjee (Assistant Professor, IITI)
-                        </div>
-                        <p class="project-summary">
-                            Investigates reaction-diffusion predator-prey systems incorporating anti-predation behavior and fear effects under stochastic noise. Proves existence of strong solutions and derives the Large Deviation Principle via weak convergence methods.
-                        </p>
-
-                        <div class="project-math-highlight">
-                            <div class="katex-box">$$\mathrm{d}X(t) = \left[ A X(t) + F(X(t)) \right] \mathrm{d}t + \sqrt{\epsilon} \sigma(X(t)) \mathrm{d}W(t)$$</div>
-                        </div>
-
-                        <div class="project-keywords">
-                            <span>Reaction-Diffusion PDE</span>
-                            <span>Fear Effect</span>
-                            <span>Strong Solutions</span>
-                            <span>Weak Convergence</span>
-                        </div>
-
-                        <button class="btn btn-outline modal-btn" onclick="openProjectModal(2)">
-                            <i class="fa-solid fa-circle-info"></i> View Full Methodology
-                        </button>
-                    </article>
-                </div>
-            </div>
-        </section>
 
         <!-- Education Section -->
         <section class="section-padding education-section" id="education">
@@ -284,7 +210,7 @@
                         <div class="timeline-dot"></div>
                         <div class="timeline-content glass-card">
                             <div class="timeline-badge badge-active">Current Affiliation</div>
-                            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2025 – Present</span>
+                            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2026 – Present</span>
                             <h3 class="timeline-title">Doctor of Philosophy (PhD) in Mathematics</h3>
                             <h4 class="timeline-institution"><i class="fa-solid fa-building-columns"></i> Indian Institute of Technology (IIT) Guwahati, India</h4>
                             <p class="timeline-desc">Pursuing doctoral research in stochastic analysis, probability, and mathematical modeling.</p>
@@ -300,8 +226,7 @@
                             <h3 class="timeline-title">Master of Science (M.Sc.) in Mathematics</h3>
                             <h4 class="timeline-institution"><i class="fa-solid fa-building-columns"></i> Indian Institute of Technology (IIT) Indore, India</h4>
                             <p class="timeline-desc">
-                                <strong>Thesis Supervisor:</strong> Dr. Debopriya Mukherjee<br>
-                                <span class="score-chip"><i class="fa-solid fa-star"></i> Current CPI: <strong>8.53 / 10</strong></span>
+                                <strong>Thesis Supervisor:</strong> Dr. Debopriya Mukherjee
                             </p>
                         </div>
                     </div>
@@ -315,8 +240,7 @@
                             <h3 class="timeline-title">Bachelor of Science (B.Sc.)</h3>
                             <h4 class="timeline-institution"><i class="fa-solid fa-building-columns"></i> Sukanta Mahavidyalaya, North Bengal University, India</h4>
                             <p class="timeline-desc">
-                                Honours in Mathematics with Generic Elective in Computer Science.<br>
-                                <span class="score-chip"><i class="fa-solid fa-award"></i> CGPA: <strong>8.86 / 10</strong></span>
+                                Honours in Mathematics with Generic Elective in Computer Science.
                             </p>
                         </div>
                     </div>
@@ -329,9 +253,6 @@
                             <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2019</span>
                             <h3 class="timeline-title">Higher Secondary Examination</h3>
                             <h4 class="timeline-institution"><i class="fa-solid fa-school"></i> Maynaguri High School, WBCHSE, West Bengal</h4>
-                            <p class="timeline-desc">
-                                <span class="score-chip"><i class="fa-solid fa-check-double"></i> Score: <strong>82.00%</strong></span>
-                            </p>
                         </div>
                     </div>
 
@@ -343,9 +264,6 @@
                             <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2017</span>
                             <h3 class="timeline-title">Secondary Examination</h3>
                             <h4 class="timeline-institution"><i class="fa-solid fa-school"></i> Maynaguri High School, WBBSE, West Bengal</h4>
-                            <p class="timeline-desc">
-                                <span class="score-chip"><i class="fa-solid fa-check-double"></i> Score: <strong>85.71%</strong></span>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -564,29 +482,29 @@
                     <!-- Contact Cards -->
                     <div class="contact-info-cards">
                         <div class="contact-card glass-card">
+                            <div class="contact-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="contact-details">
+                                <h4>IIT Guwahati Email</h4>
+                                <a href="mailto:pankajsaha@iitg.ac.in" class="contact-val">pankajsaha@iitg.ac.in</a>
+                                <button class="copy-btn" onclick="copyText('pankajsaha@iitg.ac.in', this)"><i class="fa-regular fa-copy"></i> Copy</button>
+                            </div>
+                        </div>
+
+                        <div class="contact-card glass-card">
                             <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
                             <div class="contact-details">
-                                <h4>Primary Email</h4>
+                                <h4>Personal Email</h4>
                                 <a href="mailto:ponkojs318@gmail.com" class="contact-val">ponkojs318@gmail.com</a>
                                 <button class="copy-btn" onclick="copyText('ponkojs318@gmail.com', this)"><i class="fa-regular fa-copy"></i> Copy</button>
                             </div>
                         </div>
 
                         <div class="contact-card glass-card">
-                            <div class="contact-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="contact-icon"><i class="fa-solid fa-building-columns"></i></div>
                             <div class="contact-details">
-                                <h4>Academic Email</h4>
+                                <h4>IIT Indore Alum Email</h4>
                                 <a href="mailto:msc2303141010@alum.iiti.ac.in" class="contact-val">msc2303141010@alum.iiti.ac.in</a>
                                 <button class="copy-btn" onclick="copyText('msc2303141010@alum.iiti.ac.in', this)"><i class="fa-regular fa-copy"></i> Copy</button>
-                            </div>
-                        </div>
-
-                        <div class="contact-card glass-card">
-                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
-                            <div class="contact-details">
-                                <h4>Phone Contact</h4>
-                                <a href="tel:+916294386866" class="contact-val">(+91) 6294386866</a>
-                                <button class="copy-btn" onclick="copyText('+916294386866', this)"><i class="fa-regular fa-copy"></i> Copy</button>
                             </div>
                         </div>
 
