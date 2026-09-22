@@ -121,6 +121,18 @@ a:hover {
     color: var(--accent-cyan);
 }
 
+.academic-link {
+    color: var(--accent-cyan);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 600;
+    transition: color var(--transition-fast);
+}
+
+.academic-link:hover {
+    color: var(--accent-primary);
+}
+
 .glass-card {
     background: var(--bg-card);
     backdrop-filter: blur(16px);
