@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pankaj Saha | PhD Scholar in Mathematics | IIT Guwahati</title>
-    <meta name="description" content="Academic Portfolio of Pankaj Saha, PhD Scholar at IIT Guwahati specializing in Stochastic Differential Equations (SDEs), Large Deviation Principle (LDP), and Probability Theory.">
-    <meta name="keywords" content="Pankaj Saha, IIT Guwahati, IIT Indore, Mathematics, Stochastic Differential Equations, Large Deviation Principle, Applied Mathematics, Probability Theory">
+    <meta name="description" content="Academic website of Pankaj Saha, PhD Scholar in Mathematics at IIT Guwahati. Research in Stochastic Differential Equations (SDEs), Large Deviation Principle (LDP), and Probability Theory.">
+    <meta name="keywords" content="Pankaj Saha, IIT Guwahati, IIT Indore, Mathematics, PhD Scholar, Stochastic Differential Equations, Large Deviation Principle, Probability Theory">
     <meta name="author" content="Pankaj Saha">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Pankaj Saha | PhD Scholar in Mathematics | IIT Guwahati">
-    <meta property="og:description" content="Research Portfolio of Pankaj Saha specializing in Stochastic Analysis, LDP, and Mathematical Modeling.">
+    <meta property="og:description" content="Research Website of Pankaj Saha - PhD Scholar in Mathematics at IIT Guwahati.">
     <meta property="og:type" content="website">
 
     <!-- Google Fonts -->
@@ -45,10 +45,12 @@
             <nav class="nav-menu" id="navMenu">
                 <a href="#about" class="nav-link">About</a>
                 <a href="#research" class="nav-link">Research</a>
+                <a href="#publications" class="nav-link">Publications</a>
                 <a href="#education" class="nav-link">Education</a>
-                <a href="#achievements" class="nav-link">Achievements</a>
-                <a href="#coursework" class="nav-link">Coursework</a>
+                <a href="#teaching" class="nav-link">Teaching</a>
+                <a href="#achievements" class="nav-link">Exams</a>
                 <a href="#activities" class="nav-link">Activities</a>
+                <a href="#background" class="nav-link">Background</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
 
@@ -56,8 +58,8 @@
                 <button id="themeToggle" class="icon-btn" aria-label="Toggle light and dark mode">
                     <i class="fa-solid fa-moon"></i>
                 </button>
-                <a href="#contact" class="btn btn-outline nav-cv-btn">
-                    <i class="fa-solid fa-paper-plane"></i> Connect
+                <a href="assets/Pankaj_Saha_CV.pdf" download target="_blank" class="btn btn-outline nav-cv-btn">
+                    <i class="fa-solid fa-file-pdf"></i> Curriculum Vitae
                 </a>
                 <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
                     <i class="fa-solid fa-bars"></i>
@@ -79,12 +81,20 @@
                         <div class="status-pill">
                             <span class="status-dot"></span> PhD Scholar @ IIT Guwahati
                         </div>
+                        
+                        <!-- Academic Profiles & Quick Links -->
                         <div class="hero-quick-links">
-                            <a href="mailto:pankajsaha@iitg.ac.in" title="IIT Guwahati Email" class="quick-link-btn">
+                            <a href="mailto:pankajsaha@iitg.ac.in" title="Official IIT Guwahati Email" class="quick-link-btn">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="tel:+916294386866" title="Phone Contact" class="quick-link-btn">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                            <a href="https://scholar.google.com" target="_blank" rel="noopener" title="Google Scholar Profile" class="quick-link-btn">
                                 <i class="fa-solid fa-graduation-cap"></i>
                             </a>
-                            <a href="mailto:ponkojs318@gmail.com" title="Personal Email" class="quick-link-btn">
-                                <i class="fa-solid fa-envelope"></i>
+                            <a href="https://orcid.org" target="_blank" rel="noopener" title="ORCID Profile" class="quick-link-btn">
+                                <i class="fa-brands fa-orcid"></i>
                             </a>
                             <a href="https://linkedin.com/in/pankaj-saha-7ab770209/" target="_blank" rel="noopener" title="LinkedIn Profile" class="quick-link-btn">
                                 <i class="fa-brands fa-linkedin-in"></i>
@@ -95,7 +105,7 @@
 
                 <div class="hero-content" id="about">
                     <div class="badge-tag">
-                        <i class="fa-solid fa-graduation-cap"></i> Department of Mathematics
+                        <i class="fa-solid fa-building-columns"></i> Department of Mathematics, IIT Guwahati
                     </div>
                     <h1 class="hero-title">Pankaj Saha</h1>
                     <h2 class="hero-subtitle">PhD Scholar in Mathematics</h2>
@@ -105,6 +115,14 @@
                         M.Sc. Graduate from <em>Indian Institute of Technology (IIT) Indore</em> with exposure to mathematical finance, reaction-diffusion systems, and weak convergence methods.
                     </p>
 
+                    <!-- Featured Current PhD Research Problem Card -->
+                    <div class="current-research-card glass-card">
+                        <div class="current-research-badge"><i class="fa-solid fa-atom"></i> Current PhD Research Focus</div>
+                        <p class="current-research-text">
+                            Investigating small noise asymptotic behavior, large deviation principles, and Laplace principle formulations for stochastic reaction-diffusion systems and multi-species predator-prey dynamics in Polish spaces.
+                        </p>
+                    </div>
+
                     <div class="math-banner glass-card">
                         <div class="math-formula" id="heroFormula">
                             $$\mathrm{d}X_t = b(X_t)\mathrm{d}t + \sigma(X_t)\mathrm{d}W_t, \quad \lim_{\epsilon \to 0} \epsilon \log \mathbb{E}\left[e^{-\frac{1}{\epsilon} h(X^\epsilon)}\right] = -\inf_{x \in \mathcal{S}} \{h(x) + I(x)\}$$
@@ -113,39 +131,43 @@
                     </div>
 
                     <div class="hero-actions">
-                        <a href="#research" class="btn btn-primary">
-                            <i class="fa-solid fa-brain"></i> Research Focus
+                        <a href="assets/Pankaj_Saha_CV.pdf" download target="_blank" class="btn btn-primary">
+                            <i class="fa-solid fa-file-pdf"></i> Download CV / Resume
                         </a>
-                        <a href="#contact" class="btn btn-secondary">
-                            <i class="fa-solid fa-address-card"></i> Contact Information
+                        <a href="#publications" class="btn btn-secondary">
+                            <i class="fa-solid fa-book-bookmark"></i> Publications & Preprints
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-solid fa-paper-plane"></i> Official Contact
                         </a>
                     </div>
 
                     <div class="stats-bar">
                         <div class="stat-item">
                             <span class="stat-num" data-count="4">4</span>
-                            <span class="stat-label">National Exams Qualified</span>
+                            <span class="stat-label">Competitive Exams Qualified</span>
                         </div>
                         <div class="stat-item">
                             <span class="stat-num" data-count="5">5+</span>
-                            <span class="stat-label">Academic Workshops</span>
+                            <span class="stat-label">Academic Workshops & Schools</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Research Interests Section -->
+        <!-- Research Interests Section (Primary vs Related) -->
         <section class="section-padding research-section" id="research">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Core Domains</span>
-                    <h2 class="section-title">Research Interests</h2>
+                    <span class="section-badge">Academic Focus</span>
+                    <h2 class="section-title">Research Areas</h2>
                     <p class="section-description">
-                        Focusing on modern probabilistic frameworks, stochastic dynamics, and large deviation asymptotics for complex mathematical models.
+                        Focusing on modern probabilistic frameworks, stochastic dynamics, and large deviation asymptotics for mathematical models.
                     </p>
                 </div>
 
+                <h3 class="subsection-heading"><i class="fa-solid fa-compass"></i> Primary Research Areas</h3>
                 <div class="research-grid">
                     <!-- Research 1 -->
                     <div class="research-card glass-card">
@@ -165,55 +187,95 @@
 
                     <!-- Research 3 -->
                     <div class="research-card glass-card">
+                        <div class="card-icon"><i class="fa-solid fa-infinity"></i></div>
+                        <h3>Probability Theory</h3>
+                        <p>Measure-theoretic probability, infinite dimensional spaces, Polish spaces, and stochastic perturbations in dynamic systems.</p>
+                        <div class="katex-box">$$\mathbb{E}[M_t \mid \mathcal{F}_s] = M_s \quad (s \le t)$$</div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-heading" style="margin-top: 3rem;"><i class="fa-solid fa-layer-group"></i> Related & Foundational Interests</h3>
+                <div class="research-grid">
+                    <!-- Related 1 -->
+                    <div class="research-card glass-card">
                         <div class="card-icon"><i class="fa-solid fa-coins"></i></div>
                         <h3>Mathematical Finance</h3>
-                        <p>Risk management, option pricing dynamics, financial econometrics, and stochastic volatility modeling in financial markets.</p>
+                        <p>Risk metrics, option pricing dynamics, financial econometrics, and stochastic volatility modeling in financial markets.</p>
                         <div class="katex-box">$$\mathrm{d}S_t = \mu S_t \mathrm{d}t + \sigma S_t \mathrm{d}W_t$$</div>
                     </div>
 
-                    <!-- Research 4 -->
+                    <!-- Related 2 -->
                     <div class="research-card glass-card">
                         <div class="card-icon"><i class="fa-solid fa-diagram-project"></i></div>
                         <h3>Stochastic Processes</h3>
-                        <p>Analysis of Markov chains, Brownian motion, martingale theory, and application to biological predator-prey systems.</p>
-                        <div class="katex-box">$$\mathbb{E}[M_t \mid \mathcal{F}_s] = M_s \quad (s \le t)$$</div>
+                        <p>Analysis of Markov chains, Brownian motion, martingale representations, and application to biological population models.</p>
+                        <div class="katex-box">$$\mathbb{P}(X_n = x_n \mid X_{n-1} = x_{n-1}, \dots) = \mathbb{P}(X_n = x_n \mid X_{n-1} = x_{n-1})$$</div>
                     </div>
 
-                    <!-- Research 5 -->
+                    <!-- Related 3 -->
                     <div class="research-card glass-card">
-                        <div class="card-icon"><i class="fa-solid fa-infinity"></i></div>
-                        <h3>Probability Theory & Reaction-Diffusion</h3>
-                        <p>Measure-theoretic probability, infinite dimensional spaces, Polish spaces, and reaction-diffusion PDEs under stochastic perturbation.</p>
+                        <div class="card-icon"><i class="fa-solid fa-bacteria"></i></div>
+                        <h3>Reaction-Diffusion Equations</h3>
+                        <p>Analysis of spatial reaction-diffusion PDEs featuring anti-predator dynamics and fear effects under stochastic environmental noise.</p>
                         <div class="katex-box">$$\frac{\partial u}{\partial t} = D \nabla^2 u + f(u) + \sigma(u)\dot{W}$$</div>
                     </div>
                 </div>
             </div>
         </section>
 
-
-
-        <!-- Education Section -->
-        <section class="section-padding education-section" id="education">
+        <!-- Publications & Preprints Section -->
+        <section class="section-padding publications-section" id="publications">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Academic Journey</span>
-                    <h2 class="section-title">Education Background</h2>
+                    <span class="section-badge">Scholarly Works</span>
+                    <h2 class="section-title">Publications & Preprints</h2>
+                    <p class="section-description">Research papers, preprints, and manuscripts in progress.</p>
                 </div>
 
-                <div class="timeline">
-                    <!-- Timeline Item 1 -->
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <div class="timeline-badge badge-active">Current Affiliation</div>
-                            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2026 – Present</span>
-                            <h3 class="timeline-title">Doctor of Philosophy (PhD) in Mathematics</h3>
-                            <h4 class="timeline-institution"><i class="fa-solid fa-building-columns"></i> Indian Institute of Technology (IIT) Guwahati, India</h4>
-                            <p class="timeline-desc">Pursuing doctoral research in stochastic analysis, probability, and mathematical modeling.</p>
+                <div class="publications-container glass-card">
+                    <div class="publication-item">
+                        <div class="pub-type-tag">Preprint / In Preparation</div>
+                        <h3 class="pub-title">Large Deviation Principles for Stochastic Reaction-Diffusion Systems with Anti-Predation Dynamics</h3>
+                        <p class="pub-authors"><strong>Pankaj Saha</strong>, Dr. Debopriya Mukherjee</p>
+                        <p class="pub-venue"><em>Manuscript in Preparation for Journal Submission</em></p>
+                        <p class="pub-abstract">
+                            Establishes Laplace principles and rate functions for stochastic reaction-diffusion systems incorporating fear effects and anti-predator responses via weak convergence methods of Budhiraja and Dupuis.
+                        </p>
+                        <div class="pub-actions">
+                            <span class="badge-status"><i class="fa-solid fa-clock"></i> In Preparation</span>
+                            <span class="pub-year">2026</span>
                         </div>
                     </div>
 
-                    <!-- Timeline Item 2 -->
+                    <div class="pub-placeholder-note">
+                        <i class="fa-solid fa-circle-info"></i> Full text links, PDFs, and BibTeX citations will be uploaded upon formal journal submission and peer review.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section (PhD, M.Sc., B.Sc. Only) -->
+        <section class="section-padding education-section" id="education">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Academic Qualifications</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- PhD -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-badge badge-active">Current Doctoral Program</div>
+                            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2026 – Present</span>
+                            <h3 class="timeline-title">Doctor of Philosophy (PhD) in Mathematics</h3>
+                            <h4 class="timeline-institution"><i class="fa-solid fa-building-columns"></i> Indian Institute of Technology (IIT) Guwahati, India</h4>
+                            <p class="timeline-desc">Pursuing doctoral research in stochastic analysis, probability theory, and large deviation principles.</p>
+                        </div>
+                    </div>
+
+                    <!-- M.Sc. -->
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content glass-card">
@@ -222,56 +284,69 @@
                             <h3 class="timeline-title">Master of Science (M.Sc.) in Mathematics</h3>
                             <h4 class="timeline-institution"><i class="fa-solid fa-building-columns"></i> Indian Institute of Technology (IIT) Indore, India</h4>
                             <p class="timeline-desc">
-                                <strong>Thesis Supervisor:</strong> Dr. Debopriya Mukherjee
+                                <strong>Thesis Supervisor:</strong> Dr. Debopriya Mukherjee (Assistant Professor, IIT Indore)
                             </p>
                         </div>
                     </div>
 
-                    <!-- Timeline Item 3 -->
+                    <!-- B.Sc. -->
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content glass-card">
                             <div class="timeline-badge">Bachelor's Degree</div>
                             <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Jul 2019 – Jun 2022</span>
-                            <h3 class="timeline-title">Bachelor of Science (B.Sc.)</h3>
+                            <h3 class="timeline-title">Bachelor of Science (B.Sc.) in Mathematics (Honours)</h3>
                             <h4 class="timeline-institution"><i class="fa-solid fa-building-columns"></i> Sukanta Mahavidyalaya, North Bengal University, India</h4>
                             <p class="timeline-desc">
                                 Honours in Mathematics with Generic Elective in Computer Science.
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <!-- Timeline Item 4 -->
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <div class="timeline-badge">Senior Secondary (10+2)</div>
-                            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2019</span>
-                            <h3 class="timeline-title">Higher Secondary Examination</h3>
-                            <h4 class="timeline-institution"><i class="fa-solid fa-school"></i> Maynaguri High School, WBCHSE, West Bengal</h4>
+        <!-- Teaching Experience Section -->
+        <section class="section-padding teaching-section" id="teaching">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Academic Service</span>
+                    <h2 class="section-title">Teaching Experience</h2>
+                    <p class="section-description">Teaching assistance, tutorial sessions, and academic mentorship.</p>
+                </div>
+
+                <div class="teaching-grid">
+                    <div class="teaching-card glass-card">
+                        <div class="teaching-header">
+                            <span class="teaching-role"><i class="fa-solid fa-chalkboard-user"></i> Teaching Assistant (TA)</span>
+                            <span class="teaching-inst">Department of Mathematics, IIT Guwahati</span>
                         </div>
+                        <h3 class="teaching-title">Undergraduate Mathematics Courses</h3>
+                        <p class="teaching-desc">
+                            Assisting in tutorial sessions, evaluation of assignments, conducting problem-solving classes, and mentoring students in core mathematics curriculum including Calculus, Linear Algebra, and Differential Equations.
+                        </p>
                     </div>
 
-                    <!-- Timeline Item 5 -->
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <div class="timeline-badge">Secondary (10th)</div>
-                            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2017</span>
-                            <h3 class="timeline-title">Secondary Examination</h3>
-                            <h4 class="timeline-institution"><i class="fa-solid fa-school"></i> Maynaguri High School, WBBSE, West Bengal</h4>
+                    <div class="teaching-card glass-card">
+                        <div class="teaching-header">
+                            <span class="teaching-role"><i class="fa-solid fa-user-graduate"></i> Academic Mentorship</span>
+                            <span class="teaching-inst">IIT Indore & Sukanta Mahavidyalaya</span>
                         </div>
+                        <h3 class="teaching-title">Peer Tutoring & Problem Solving</h3>
+                        <p class="teaching-desc">
+                            Conducted peer-assisted problem solving groups for Real Analysis, Measure Theory, and Probability Methods during M.Sc. and B.Sc. studies.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Achievements Section -->
+        <!-- Competitive Examinations Section -->
         <section class="section-padding achievements-section" id="achievements">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Competitive Excellence</span>
-                    <h2 class="section-title">National Examinations Qualified</h2>
+                    <span class="section-badge">National & State Level Exams</span>
+                    <h2 class="section-title">Competitive Examinations</h2>
                 </div>
 
                 <div class="achievements-grid">
@@ -281,7 +356,7 @@
                         <div class="achieve-icon"><i class="fa-solid fa-trophy"></i></div>
                         <h3>GATE (MA)</h3>
                         <p class="achieve-name">Graduate Aptitude Test in Engineering - Mathematics</p>
-                        <span class="achieve-status"><i class="fa-solid fa-circle-check"></i> Qualified National Level Exam</span>
+                        <span class="achieve-status"><i class="fa-solid fa-circle-check"></i> Qualified (National Level)</span>
                     </div>
 
                     <!-- IIT JAM -->
@@ -290,7 +365,7 @@
                         <div class="achieve-icon"><i class="fa-solid fa-award"></i></div>
                         <h3>IIT-JAM</h3>
                         <p class="achieve-name">Joint Admission Test for M.Sc. (Mathematics)</p>
-                        <span class="achieve-status"><i class="fa-solid fa-circle-check"></i> Qualified for IIT Admission</span>
+                        <span class="achieve-status"><i class="fa-solid fa-circle-check"></i> Qualified (National Level)</span>
                     </div>
 
                     <!-- CUET PG -->
@@ -299,7 +374,7 @@
                         <div class="achieve-icon"><i class="fa-solid fa-certificate"></i></div>
                         <h3>CUET PG</h3>
                         <p class="achieve-name">Common University Entrance Test Postgraduate</p>
-                        <span class="achieve-status"><i class="fa-solid fa-circle-check"></i> Qualified National Entrance</span>
+                        <span class="achieve-status"><i class="fa-solid fa-circle-check"></i> Qualified (National Level)</span>
                     </div>
 
                     <!-- WBJEE -->
@@ -308,28 +383,29 @@
                         <div class="achieve-icon"><i class="fa-solid fa-medal"></i></div>
                         <h3>WBJEE</h3>
                         <p class="achieve-name">West Bengal Joint Entrance Examination</p>
-                        <span class="achieve-status"><i class="fa-solid fa-circle-check"></i> Qualified State Entrance</span>
+                        <span class="achieve-status"><i class="fa-solid fa-circle-check"></i> Qualified (State Level)</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Academic Workshops & Activities Section -->
+        <!-- Academic Activities: Conferences & Workshops Separated -->
         <section class="section-padding activities-section" id="activities">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Continuous Learning</span>
-                    <h2 class="section-title">Academic Activities & Workshops</h2>
+                    <span class="section-badge">Conferences & Training</span>
+                    <h2 class="section-title">Conferences, Workshops & Academic Activities</h2>
                 </div>
 
-                <div class="activities-list">
+                <h3 class="subsection-heading"><i class="fa-solid fa-people-group"></i> Conferences & Seminar Presentations</h3>
+                <div class="activities-list" style="margin-bottom: 3rem;">
                     <!-- Activity 1 -->
                     <div class="activity-card glass-card">
-                        <div class="activity-date-badge">15–16 Feb 2025</div>
+                        <div class="activity-date-badge">22 Oct 2024</div>
                         <div class="activity-info">
-                            <h3>Mathematical Finance and Risk Management</h3>
-                            <p class="activity-org"><i class="fa-solid fa-chalkboard-user"></i> Instructor: Dr. Neelesh S. Upadhye &bull; NPTEL</p>
-                            <p class="activity-desc">Workshop covering modern portfolio theory, risk metrics, option pricing, and stochastic volatility modeling.</p>
+                            <h3>Differential Equation Solvers & Applications Workshop & Seminar</h3>
+                            <p class="activity-org"><i class="fa-solid fa-building-columns"></i> Department of Mathematics, IIT Indore</p>
+                            <p class="activity-desc">Participated in seminars on numerical ODE/PDE solvers, stability analysis, and computational differential equation tools.</p>
                         </div>
                     </div>
 
@@ -339,27 +415,30 @@
                         <div class="activity-info">
                             <h3>Financial Econometrics and Panel Data Analysis Workshop</h3>
                             <p class="activity-org"><i class="fa-solid fa-building-columns"></i> Jaya Prakash Narayan National Centre of Excellence in HSS, IIT Indore</p>
-                            <p class="activity-desc">Hands-on training in panel data modeling, stationary time-series analysis, and econometric methods.</p>
+                            <p class="activity-desc">Participated in panel data modeling, stationary time-series analysis, and econometric methods.</p>
                         </div>
                     </div>
+                </div>
 
+                <h3 class="subsection-heading"><i class="fa-solid fa-chalkboard-user"></i> Advanced Schools & Specialized Workshops</h3>
+                <div class="activities-list">
                     <!-- Activity 3 -->
-                    <div class="activity-card glass-card">
-                        <div class="activity-date-badge">22 Oct 2024</div>
-                        <div class="activity-info">
-                            <h3>Differential Equation Solvers & Applications</h3>
-                            <p class="activity-org"><i class="fa-solid fa-building-columns"></i> Department of Mathematics, IIT Indore</p>
-                            <p class="activity-desc">Seminar on numerical ODE/PDE solvers, stability analysis, and computational mathematical tools.</p>
-                        </div>
-                    </div>
-
-                    <!-- Activity 4 -->
                     <div class="activity-card glass-card">
                         <div class="activity-date-badge">13 May 2024</div>
                         <div class="activity-info">
                             <h3>AIS - Stochastic Processes and Applications</h3>
                             <p class="activity-org"><i class="fa-solid fa-building-columns"></i> Hosted by IIT Guwahati</p>
-                            <p class="activity-desc">Advanced Instructional School on Markov chains, random walks, and SDE theory hosted at IIT Guwahati.</p>
+                            <p class="activity-desc">Advanced Instructional School (AIS) covering Markov chains, random walks, and SDE theory hosted at IIT Guwahati.</p>
+                        </div>
+                    </div>
+
+                    <!-- Activity 4 -->
+                    <div class="activity-card glass-card">
+                        <div class="activity-date-badge">15–16 Feb 2025</div>
+                        <div class="activity-info">
+                            <h3>Mathematical Finance and Risk Management</h3>
+                            <p class="activity-org"><i class="fa-solid fa-school"></i> NPTEL Course & Workshop by Dr. Neelesh S. Upadhye</p>
+                            <p class="activity-desc">Instruction on modern portfolio theory, risk metrics, option pricing, and stochastic volatility models.</p>
                         </div>
                     </div>
 
@@ -368,34 +447,33 @@
                         <div class="activity-date-badge">22 Jan 2024</div>
                         <div class="activity-info">
                             <h3>IEEE CIS Workshop on Women in Artificial Intelligence</h3>
-                            <p class="activity-org"><i class="fa-solid fa-laptop-code"></i> Organized by IEEE MP Section – CIS Chapter at IIT Indore</p>
-                            <p class="activity-desc">Focusing on machine learning paradigms, AI methodologies, and intelligent computational systems.</p>
+                            <p class="activity-org"><i class="fa-solid fa-laptop-code"></i> IEEE MP Section – CIS Chapter at IIT Indore</p>
+                            <p class="activity-desc">Attended sessions on machine learning paradigms, AI methodologies, and computational mathematics.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Coursework & Skills Explorer Section -->
-        <section class="section-padding coursework-section" id="coursework">
+        <!-- Mathematical Background & Computational Tools Section -->
+        <section class="section-padding coursework-section" id="background">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Curriculum & Competencies</span>
-                    <h2 class="section-title">Coursework & Skills Explorer</h2>
+                    <span class="section-badge">Academic Preparation</span>
+                    <h2 class="section-title">Mathematical Background & Computational Tools</h2>
                 </div>
 
                 <div class="tab-filters">
-                    <button class="tab-btn active" onclick="filterCategory('all', this)">All Skills & Courses</button>
-                    <button class="tab-btn" onclick="filterCategory('pure', this)">Pure Mathematics</button>
-                    <button class="tab-btn" onclick="filterCategory('applied', this)">Applied Mathematics</button>
-                    <button class="tab-btn" onclick="filterCategory('tech', this)">Programming & Software</button>
+                    <button class="tab-btn active" onclick="filterCategory('all', this)">All Background & Tools</button>
+                    <button class="tab-btn" onclick="filterCategory('pure', this)">Mathematical Background</button>
+                    <button class="tab-btn" onclick="filterCategory('tech', this)">Computational & Scientific Tools</button>
                     <button class="tab-btn" onclick="filterCategory('lang', this)">Linguistic Skills</button>
                 </div>
 
                 <div class="course-grid">
                     <!-- Pure Math -->
                     <div class="course-category-card glass-card" data-cat="pure">
-                        <h3><i class="fa-solid fa-square-root-variable"></i> Pure Mathematics</h3>
+                        <h3><i class="fa-solid fa-square-root-variable"></i> Mathematical Background</h3>
                         <div class="tags-container">
                             <span class="course-tag">Real Analysis</span>
                             <span class="course-tag">Functional Analysis</span>
@@ -404,24 +482,22 @@
                             <span class="course-tag">Probability Theory</span>
                             <span class="course-tag">Linear Algebra</span>
                             <span class="course-tag">Topology</span>
-                        </div>
-                    </div>
-
-                    <!-- Applied Math -->
-                    <div class="course-category-card glass-card" data-cat="applied">
-                        <h3><i class="fa-solid fa-chart-pie"></i> Applied Mathematics</h3>
-                        <div class="tags-container">
-                            <span class="course-tag">Probability & Statistical Methods</span>
                             <span class="course-tag">Ordinary Differential Equations (ODE)</span>
                             <span class="course-tag">Partial Differential Equations (PDE)</span>
                             <span class="course-tag">Numerical Analysis</span>
-                            <span class="course-tag">Machine Learning</span>
                         </div>
                     </div>
 
-                    <!-- Programming & Frameworks -->
+                    <!-- Computational Tools -->
                     <div class="course-category-card glass-card" data-cat="tech">
-                        <h3><i class="fa-solid fa-code"></i> Technical & Programming Skills</h3>
+                        <h3><i class="fa-solid fa-terminal"></i> Computational & Scientific Tools</h3>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span>LaTeX & Technical Documentation</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-progress"><div class="skill-fill" style="width: 85%;"></div></div>
+                        </div>
                         <div class="skill-bar-item">
                             <div class="skill-info">
                                 <span>R & MATLAB</span>
@@ -431,33 +507,26 @@
                         </div>
                         <div class="skill-bar-item">
                             <div class="skill-info">
-                                <span>C Programming</span>
+                                <span>C / C++ Programming</span>
                                 <span class="skill-level">Intermediate</span>
                             </div>
                             <div class="skill-progress"><div class="skill-fill" style="width: 75%;"></div></div>
                         </div>
                         <div class="skill-bar-item">
                             <div class="skill-info">
-                                <span>LaTeX & Technical Writing</span>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                            <div class="skill-progress"><div class="skill-fill" style="width: 85%;"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <div class="skill-info">
-                                <span>Python & C++</span>
+                                <span>Python</span>
                                 <span class="skill-level">Basic Proficiency</span>
                             </div>
-                            <div class="skill-progress"><div class="skill-fill" style="width: 50%;"></div></div>
+                            <div class="skill-progress"><div class="skill-fill" style="width: 55%;"></div></div>
                         </div>
                     </div>
 
                     <!-- Languages -->
                     <div class="course-category-card glass-card" data-cat="lang">
-                        <h3><i class="fa-solid fa-language"></i> Linguistic Proficiency</h3>
+                        <h3><i class="fa-solid fa-language"></i> Language Proficiency</h3>
                         <div class="tags-container">
                             <span class="course-tag lang-tag"><i class="fa-solid fa-globe"></i> English (Professional)</span>
-                            <span class="course-tag lang-tag"><i class="fa-solid fa-comment-dots"></i> Bengali (Native / Fluent)</span>
+                            <span class="course-tag lang-tag"><i class="fa-solid fa-comment-dots"></i> Bengali (Native)</span>
                             <span class="course-tag lang-tag"><i class="fa-solid fa-comments"></i> Hindi (Fluent)</span>
                         </div>
                     </div>
@@ -465,65 +534,73 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
+        <!-- Official Contact Section -->
         <section class="section-padding contact-section" id="contact">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Get in Touch</span>
-                    <h2 class="section-title">Contact & Communication</h2>
-                    <p class="section-description">Feel free to reach out for research discussions, academic collaborations, or questions.</p>
+                    <span class="section-badge">Institutional Contact</span>
+                    <h2 class="section-title">Official Communication</h2>
+                    <p class="section-description">For academic inquiries, mathematical collaborations, or preprints access.</p>
                 </div>
 
                 <div class="contact-grid">
                     <!-- Contact Cards -->
                     <div class="contact-info-cards">
-                        <div class="contact-card glass-card">
-                            <div class="contact-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                            <div class="contact-details">
-                                <h4>IIT Guwahati Email</h4>
-                                <a href="mailto:pankajsaha@iitg.ac.in" class="contact-val">pankajsaha@iitg.ac.in</a>
-                                <button class="copy-btn" onclick="copyText('pankajsaha@iitg.ac.in', this)"><i class="fa-regular fa-copy"></i> Copy</button>
-                            </div>
-                        </div>
-
-                        <div class="contact-card glass-card">
-                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
-                            <div class="contact-details">
-                                <h4>Personal Email</h4>
-                                <a href="mailto:ponkojs318@gmail.com" class="contact-val">ponkojs318@gmail.com</a>
-                                <button class="copy-btn" onclick="copyText('ponkojs318@gmail.com', this)"><i class="fa-regular fa-copy"></i> Copy</button>
-                            </div>
-                        </div>
-
-                        <div class="contact-card glass-card">
+                        <div class="contact-card glass-card primary-contact">
                             <div class="contact-icon"><i class="fa-solid fa-building-columns"></i></div>
                             <div class="contact-details">
-                                <h4>IIT Indore Alum Email</h4>
-                                <a href="mailto:msc2303141010@alum.iiti.ac.in" class="contact-val">msc2303141010@alum.iiti.ac.in</a>
-                                <button class="copy-btn" onclick="copyText('msc2303141010@alum.iiti.ac.in', this)"><i class="fa-regular fa-copy"></i> Copy</button>
+                                <h4>Official Institutional Email</h4>
+                                <a href="mailto:pankajsaha@iitg.ac.in" class="contact-val">pankajsaha@iitg.ac.in</a>
+                                <button class="copy-btn" onclick="copyText('pankajsaha@iitg.ac.in', this)"><i class="fa-regular fa-copy"></i> Copy Email</button>
                             </div>
                         </div>
 
                         <div class="contact-card glass-card">
-                            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
                             <div class="contact-details">
-                                <h4>LinkedIn Profile</h4>
-                                <a href="https://linkedin.com/in/pankaj-saha-7ab770209/" target="_blank" rel="noopener" class="contact-val">linkedin.com/in/pankaj-saha-7ab770209</a>
+                                <h4>Academic Address</h4>
+                                <span class="contact-val" style="font-size: 0.9rem; font-weight: 500;">
+                                    Department of Mathematics,<br>
+                                    Indian Institute of Technology Guwahati,<br>
+                                    Assam 781039, India
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-details">
+                                <h4>Phone Contact</h4>
+                                <a href="tel:+916294386866" class="contact-val">(+91) 6294386866</a>
+                                <button class="copy-btn" onclick="copyText('+916294386866', this)"><i class="fa-regular fa-copy"></i> Copy Phone</button>
+                            </div>
+                        </div>
+
+                        <div class="contact-card glass-card">
+                            <div class="contact-icon"><i class="fa-solid fa-file-pdf"></i></div>
+                            <div class="contact-details">
+                                <h4>Curriculum Vitae</h4>
+                                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem;">
+                                    Personal contact details and extended references are available in the downloadable CV.
+                                </p>
+                                <a href="assets/Pankaj_Saha_CV.pdf" download target="_blank" class="btn btn-outline btn-sm">
+                                    <i class="fa-solid fa-download"></i> Download Full CV
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Interactive Contact Form -->
                     <div class="contact-form-container glass-card">
-                        <h3>Send a Message</h3>
+                        <h3>Send an Academic Message</h3>
                         <form id="contactForm" onsubmit="handleFormSubmit(event)">
                             <div class="form-group">
-                                <label for="senderName">Your Name</label>
-                                <input type="text" id="senderName" required placeholder="Dr. Jane Doe">
+                                <label for="senderName">Your Name & Affiliation</label>
+                                <input type="text" id="senderName" required placeholder="Prof. Jane Doe / University of ...">
                             </div>
 
                             <div class="form-group">
-                                <label for="senderEmail">Your Email</label>
+                                <label for="senderEmail">Your Email Address</label>
                                 <input type="email" id="senderEmail" required placeholder="jane.doe@university.edu">
                             </div>
 
@@ -550,7 +627,7 @@
         </section>
     </main>
 
-    <!-- Modal Dialog for Project Details -->
+    <!-- Modal Dialog -->
     <div class="modal-overlay" id="projectModal">
         <div class="modal-card glass-card">
             <button class="modal-close" onclick="closeProjectModal()"><i class="fa-solid fa-xmark"></i></button>
@@ -566,6 +643,7 @@
             <div class="footer-brand">
                 <span class="footer-title">Pankaj Saha</span>
                 <p>PhD Scholar in Mathematics &bull; Indian Institute of Technology Guwahati</p>
+                <p class="footer-update"><i class="fa-regular fa-clock"></i> Last Updated: September 2026</p>
             </div>
             <div class="footer-links">
                 <a href="#hero">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
